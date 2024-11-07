@@ -20,7 +20,7 @@ const changePlayerName=()=>{
 return(
 
     <div>
-        <h1>{player}has scored{score}</h1>
+        <h1>{player} has scored {score}</h1>
         <button onClick={incrementScore}>+</button>
         <button onClick={decrementScore}>-</button>
         <button onClick={changePlayerName}>Change Player</button>
