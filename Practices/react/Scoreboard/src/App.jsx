@@ -1,12 +1,14 @@
 import './App.css'
-import Scoreboard from './Component/Scoreboard'
+import PlayerScore from './Component/PlayerScore'
+// import Scoreboard from './Component/Scoreboard'
+// import ScoreBoard2 from './Component/ScoreBoard2'
 
 function App() {
  
 
   return (
     <div>
-      <Scoreboard />
+      <PlayerScore/>
     </div>
   )
 }
